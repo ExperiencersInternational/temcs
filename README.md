@@ -1,8 +1,9 @@
 # Traffic England Motorway Camera Snapshots
 
-A poorly coded Python tool (first time coding in Python) I made to download snapshots from motorway cameras in England every minute.
+A poorly coded Python tool (first time coding in Python) I made to download snapshots from motorway cameras in England every minute. No support for Traffic Wales, Traffic Scotland or TfL at this time.
 
-> **Note:** This tool was made with assistance from Microsoft Copilot (I know it's not a good idea but I've never used Python). All images created from this tool are under Crown copyright, I am not affiliated with National Highways and there are no guarantees that you might get blocked from the website for using this tool.
+> **Note:** This tool was made with assistance from Microsoft Copilot (I know it's not a good idea but I've never used Python). All images created from this tool are under Crown copyright, I am not affiliated with National Highways and there are no guarantees that you might get blocked from the website for using this tool. Please check that a camera feed is operational before downloading, this won't detect out of order cameras at this time. Tool requires the `requests` dependancy, will not run without it.
+> **Important:** This must be ran through Command Prompt, it will not work through the Python app or double clicking the file (I don't know why and can't be bothered to solve it).
 
 ## How to use
 
